@@ -31,6 +31,7 @@ This website offers games to play, unblockers, and much more.
 - https://outred.org
 - https://outred.dev
 - https://outreds.world
+- http://outred.fun
 - Join the [Discord server](https://discord.gg/89NGVfR7ja) for more free premium links tysm...
 
 ## Contributing
