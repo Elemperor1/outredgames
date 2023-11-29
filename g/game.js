@@ -23,6 +23,9 @@ fetch('/js/json/games.json')
         renderGrid(filteredData);
       }
     });
+// polyfill for webp image for mobile user
+!function(){var e=document.createElement("script");e.src="https://unpkg.com/webp-hero@0.0.2/dist-cjs/polyfills.js",document.head.appendChild(e);var t=document.createElement("script");t.src="https://unpkg.com/webp-hero@0.0.2/dist-cjs/webp-hero.bundle.js",document.head.appendChild(t),e.onload=t.onload=function(){var n=new webpHero.WebpMachine;n.polyfillDocument()}}();
+
 
     function renderGrid(items) {
       // Clear the current contents of the games container
